@@ -12,9 +12,10 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     background-color: #FFE2C2;
     overflow-x: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 main h1{

@@ -5,3 +5,174 @@
     padding: 0px;
     margin: 0px;
 }
+
+body, html {
+    background-color: #FFE2C2;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+header div#btVoltar{
+    background-image: url(../img/icons8-voltar-50.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 39px 0px 0px 24px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
+}
+
+h1, h2, p{
+    color: #2E3456;
+}
+header h1{
+    color: #2E3456;
+    margin: 44px 0px 0px 0px;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    font-size: 29px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
+}
+
+section h2{
+    text-align: center;
+    padding-top: 56px;
+    font-size: 40px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
+}
+
+header div#iconBacklg{
+    background-image: url(../img/Captura_de_tela_2025-06-02_170545-removebg-preview.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 44px 9px 0px 0px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
+}
+
+header section{
+    display: flex;
+}
+
+section div#imgPrincipal{
+    background-image: url(../img/9227663.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
+    width: 466px;
+    height: 550px;
+    border-radius: 76px;
+    margin: auto;
+}
+
+section div#relogio{
+    background-image: url(../img/icons8-hora-2-50.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+section div#etiqueta{
+    background-image: url(../img/icons8-etiqueta-de-preço-32.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+button#google  {
+    display: flex;
+    background-color: #FDA52A;
+    margin: 0px 60px 0px 60px;
+    border-radius: 24px;
+    width: 473px;
+    height: 51px;
+    border: 0px;
+}
+
+button#google img{
+    padding-left: 85px;
+    padding-top: 4px; 
+    height: 43px;
+    width: 43px;
+}
+
+button#google p{
+    display: flex;
+    font-weight: bolder;
+    padding: 10px 0px 0px 10px;
+    font-size: 1.5em;
+    padding-top: 12px;
+}
+
+button#email  {
+    display: flex;
+    background-color: #FDA52A;
+    margin: 0px 60px 0px 60px;
+    border-radius: 24px;
+    width: 473px;
+    height: 51px;
+    border: 0px;
+}
+
+button#email img{
+    padding-left: 85px;
+    padding-top: 4px; 
+    height: 43px;
+    width: 43px;
+}
+
+button#email p{
+    display: flex;
+    font-weight: bolder;
+    padding: 10px 0px 0px 10px;
+    font-size: 1.5em;
+    padding-top: 12px;
+}
+
+button#facebook  {
+    display: flex;
+    background-color: #FDA52A;
+    margin: 0px 60px 0px 60px;
+    border-radius: 24px;
+    width: 473px;
+    height: 51px;
+    border: 0px;
+}
+
+button#facebook img{
+    padding-left: 85px;
+    padding-top: 4px; 
+    height: 43px;
+    width: 43px;
+}
+
+button#facebook p{
+    display: flex;
+    font-weight: bolder;
+    padding: 10px 0px 0px 10px;
+    font-size: 1.5em;
+    padding-top: 12px;
+}
+
+button#apple  {
+    display: flex;
+    background-color: #FDA52A;
+    margin: 0px 60px 0px 60px;
+    border-radius: 24px;
+    width: 473px;
+    height: 51px;
+    border: 0px;
+}
+
+button#apple img{
+    padding-left: 85px;
+    padding-top: 4px; 
+    height: 43px;
+    width: 43px;
+}
+
+button#apple p{
+    display: flex;
+    font-weight: bolder;
+    padding: 10px 0px 0px 10px;
+    font-size: 1.5em;
+    padding-top: 12px;
+}
