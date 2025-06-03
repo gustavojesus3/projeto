@@ -46,8 +46,8 @@ main div#fotoPrincipal{
     background-image:  url(../img/freepik__upload__79771.png);
     background-size: cover;
     background-position: center right;
-    width: 108vw;
-    height: 64vh;
+    width: 95vw;
+    height: 60vh;
 }
 
 
@@ -81,8 +81,8 @@ main div#etiqueta{
 section button{
     display: block;
     margin: auto;
-    width: 450px;
-    height: 77px;
+    width: 304px;
+    height: 55px;
     margin-top: 30px;
     border: 0px;
     border-radius: 15px;
