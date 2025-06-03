@@ -16,7 +16,7 @@
 
 body {
     background-color: #a05f19;
-    
+    overflow-x: hidden;
 }
 
 main h1{
