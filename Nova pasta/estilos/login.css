@@ -80,7 +80,7 @@ section div#imgPrincipal{
     justify-content: center;
 }
 
-button#google  {
+div#google  {
     display: flex;
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
@@ -91,15 +91,15 @@ button#google  {
      box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
-button#google img{
-    padding-left: 46px;
+div#google img{
+    padding-left: 37px;
     padding-top: 4px; 
     height: 43px;
     width: 43px;
     padding-right: 11px;
 }
 
-button#google p{
+div#google p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 0px;
@@ -109,7 +109,7 @@ button#google p{
     color: black;
 }
 
-button#email  {
+div#email  {
     display: flex;
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
@@ -120,15 +120,15 @@ button#email  {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
-button#email img{
-    padding-left: 65px;
+div#email img{
+    padding-left: 47px;
     padding-top: 4px; 
     height: 42px;
     width: 42px;
     padding-right: 11px;
 }
 
-button#email p{
+div#email p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
@@ -138,7 +138,7 @@ button#email p{
     color: black;
 }
 
-button#facebook  {
+div#facebook  {
     display: flex;
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
@@ -149,14 +149,14 @@ button#facebook  {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
-button#facebook img{
-    padding-left: 37px;
+div#facebook img{
+    padding-left: 20px;
     padding-top: 4px; 
     height: 43px;
     width: 43px;
 }
 
-button#facebook p{
+div#facebook p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
@@ -166,7 +166,7 @@ button#facebook p{
     color: black;
 }
 
-button#apple  {
+div#apple  {
     display: flex;
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
@@ -177,14 +177,14 @@ button#apple  {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
-button#apple img{
-    padding-left: 54px;
+div#apple img{
+    padding-left: 39px;
     padding-top: 4px; 
     height: 43px;
     width: 43px;
 }
 
-button#apple p{
+div#apple p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
@@ -205,4 +205,8 @@ footer{
 
 footer p{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+}
+
+a{
+    text-decoration: none;
 }

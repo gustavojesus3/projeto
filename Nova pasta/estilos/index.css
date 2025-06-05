@@ -124,3 +124,7 @@ section#textos{
     color: #2E3456;
     font-weight: bold;
 }
+
+a{
+    text-decoration: none;
+}
