@@ -76,10 +76,10 @@ button#google  {
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 342px;
+    width: 357px;
     height: 51px;
     border: 0px;
-    
+     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
 button#google img{
@@ -96,6 +96,8 @@ button#google p{
     padding: 10px 0px 0px 0px;
     font-size: 1.3em;
     padding-top: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    color: black;
 }
 
 button#email  {
@@ -103,9 +105,10 @@ button#email  {
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 342px;
+    width: 357px;
     height: 51px;
     border: 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
 button#email img{
@@ -122,6 +125,8 @@ button#email p{
     padding: 10px 0px 0px 10px;
     font-size: 1.3em;
     padding-top: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    color: black;
 }
 
 button#facebook  {
@@ -129,9 +134,10 @@ button#facebook  {
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 342px;
+    width: 357px;
     height: 51px;
     border: 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
 button#facebook img{
@@ -147,6 +153,8 @@ button#facebook p{
     padding: 10px 0px 0px 10px;
     font-size: 1.3em;
     padding-top: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    color: black;
 }
 
 button#apple  {
@@ -154,9 +162,10 @@ button#apple  {
     background-color: #FDA52A;
     margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 342px;
+    width: 357px;
     height: 51px;
     border: 0px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.295);
 }
 
 button#apple img{
@@ -172,6 +181,8 @@ button#apple p{
     padding: 10px 0px 0px 10px;
     font-size: 1.3em;
     padding-top: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    color: black;
 }
 
 footer{
@@ -181,4 +192,8 @@ footer{
     font-weight: bolder;
     font-size: small;
     padding: 13px 15px 1px 15px;
+}
+
+footer p{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
 }
