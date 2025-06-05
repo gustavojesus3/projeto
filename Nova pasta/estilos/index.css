@@ -58,7 +58,7 @@ main div#fotoPrincipal{
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 65vh;  
+    height: 65vh; 
 }
 
 section.icones {
@@ -88,7 +88,7 @@ main div#etiqueta{
     height: 78px;
 }
 
-div#botao{
+button#botao{
     display: block;
     margin: auto;
     width: 304px;
@@ -100,15 +100,16 @@ div#botao{
     box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.148);
 }
 
-div#botao p{
+button#botao {
     text-align: center;
     color: black;
     padding-top: 10px;
     font-size: 1.7em;
     font-weight: bold;
+    
 }
 
-div#botao {
+button#botao {
     text-decoration: none;
     color: black;
 }
