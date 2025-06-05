@@ -16,7 +16,7 @@ header div#btVoltar{
     background-size: cover;
     width: 40px;
     height: 40px;
-    margin: 44px 0px 0px 24px;
+    margin: 22px 0px 0px 24px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
 
@@ -25,10 +25,10 @@ h1, h2, p{
 }
 header h1{
     color: #2E3456;
-    margin: 44px 0px 0px 0px;
+    
     margin: auto;
-    margin-top: 48px;
-    margin-bottom: 60px;
+    margin-top: 26px;
+    margin-bottom: 26px;
     font-size: 29px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
@@ -36,6 +36,7 @@ header h1{
 h2{
     text-align: center;
     padding-top: 56px;
+    padding-bottom: 60px;
     font-size: 40px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
@@ -45,7 +46,7 @@ header div#iconBacklg{
     background-size: cover;
     width: 40px;
     height: 40px;
-    margin: 44px 9px 0px 0px;
+    margin: 17px 9px 0px 0px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
 
@@ -63,44 +64,11 @@ section div#imgPrincipal{
     margin: auto;
 }
 
-section#itens{
-    margin-top: 30px;
+.botoes {
     display: flex;
-    justify-content: center; 
-    align-items: center;    
-    gap: 170px;               
-}
-
-section div#relogio{
-    
-    background-image: url(../img/icons8-hora-2-50.png);
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-}
-
-section div#etiqueta{
-    
-    background-image: url(../img/icons8-etiqueta-de-preço-32.png);
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-}
-
-section#p{
-    display: flex;
-    justify-content: center; 
-    align-items: center;    
-    gap: 20px;         
-    
-}
-
-section#p p{
-    padding-top: 20px;
-    padding-bottom: 38px;
-    font-size: 13px;
-    margin: 0;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button#google  {
