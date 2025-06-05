@@ -14,9 +14,9 @@ body, html {
 header div#btVoltar{
     background-image: url(../img/icons8-voltar-50.png);
     background-size: cover;
-    width: 50px;
-    height: 50px;
-    margin: 39px 0px 0px 24px;
+    width: 40px;
+    height: 40px;
+    margin: 44px 0px 0px 24px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
 
@@ -33,7 +33,7 @@ header h1{
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
 
-section h2{
+h2{
     text-align: center;
     padding-top: 56px;
     font-size: 40px;
@@ -43,8 +43,8 @@ section h2{
 header div#iconBacklg{
     background-image: url(../img/Captura_de_tela_2025-06-02_170545-removebg-preview.png);
     background-size: cover;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 44px 9px 0px 0px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
 }
@@ -57,13 +57,22 @@ section div#imgPrincipal{
     background-image: url(../img/9227663.jpg);
     background-size: cover;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.295);
-    width: 466px;
-    height: 550px;
+    width: 445px;
+    height: 542px;
     border-radius: 76px;
     margin: auto;
 }
 
+section#itens{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 170px;               
+}
+
 section div#relogio{
+    
     background-image: url(../img/icons8-hora-2-50.png);
     background-size: cover;
     width: 50px;
@@ -71,74 +80,94 @@ section div#relogio{
 }
 
 section div#etiqueta{
+    
     background-image: url(../img/icons8-etiqueta-de-preço-32.png);
     background-size: cover;
     width: 50px;
     height: 50px;
 }
 
+section#p{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 20px;         
+    
+}
+
+section#p p{
+    padding-top: 20px;
+    padding-bottom: 38px;
+    font-size: 13px;
+    margin: 0;
+
+}
+
 button#google  {
     display: flex;
     background-color: #FDA52A;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 403px;
+    width: 342px;
     height: 51px;
     border: 0px;
+    
 }
 
 button#google img{
-    padding-left: 57px;
+    padding-left: 46px;
     padding-top: 4px; 
     height: 43px;
     width: 43px;
+    padding-right: 11px;
 }
 
 button#google p{
     display: flex;
     font-weight: bolder;
-    padding: 10px 0px 0px 10px;
-    font-size: 1.5em;
-    padding-top: 12px;
+    padding: 10px 0px 0px 0px;
+    font-size: 1.3em;
+    padding-top: 15px;
 }
 
 button#email  {
     display: flex;
     background-color: #FDA52A;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 403px;
+    width: 342px;
     height: 51px;
     border: 0px;
 }
 
 button#email img{
-    padding-left: 75px;
+    padding-left: 65px;
     padding-top: 4px; 
-    height: 43px;
-    width: 43px;
+    height: 42px;
+    width: 42px;
+    padding-right: 11px;
 }
 
 button#email p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
-    font-size: 1.5em;
-    padding-top: 12px;
+    font-size: 1.3em;
+    padding-top: 15px;
 }
 
 button#facebook  {
     display: flex;
     background-color: #FDA52A;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 403px;
+    width: 342px;
     height: 51px;
     border: 0px;
 }
 
 button#facebook img{
-    padding-left: 51px;
+    padding-left: 37px;
     padding-top: 4px; 
     height: 43px;
     width: 43px;
@@ -148,22 +177,22 @@ button#facebook p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
-    font-size: 1.5em;
-    padding-top: 12px;
+    font-size: 1.3em;
+    padding-top: 15px;
 }
 
 button#apple  {
     display: flex;
     background-color: #FDA52A;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 10px 60px;
     border-radius: 24px;
-    width: 403px;
+    width: 342px;
     height: 51px;
     border: 0px;
 }
 
 button#apple img{
-    padding-left: 68px;
+    padding-left: 54px;
     padding-top: 4px; 
     height: 43px;
     width: 43px;
@@ -173,6 +202,15 @@ button#apple p{
     display: flex;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
-    font-size: 1.5em;
-    padding-top: 12px;
+    font-size: 1.3em;
+    padding-top: 15px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: small;
+    padding: 13px 15px 1px 15px;
 }
