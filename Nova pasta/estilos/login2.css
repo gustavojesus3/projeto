@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #FFE2C2;
+}
+
+main{
+    background-color:#424242;
+    height: 80vh;
+    width: 76vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div#iconback{
+    background-image: url(../img/Captura_de_tela_2025-06-02_170545-removebg-preview.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+div#icon1{
+    background-image: url();
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+div#icon2{
+    background-image: url();
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+div#icon3{
+    background-image: url(../img/icons8-usuário-homem-com-círculo-48.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
