@@ -1,117 +1,70 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-body {
+body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #FFE2C2;
+    
+}
+
+main.pai{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-}
-
-.container {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
-.card {
+div.tela{
     background-color: #424242;
-    border-radius: 10px;
-    padding: 30px 20px;
-    width: 90%;
-    max-width: 400px;
+    height: 551px;
+    width: 308px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1{
+    padding-top: 20px;
     color: white;
     text-align: center;
-    height: 600px;
+    font-size: larger;
+    font-weight: bolder;
 }
 
-.logo {
-    background-image: url('../img/Captura_de_tela_2025-06-02_170545-removebg-preview.png');
-    background-size: cover;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-}
-
-h1 {
-    font-size: 22px;
-    margin-bottom: 8px;
-}
-
-.subtitle {
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.account {
-    display: flex;
-    align-items: center;
-    background-color: #333;
+h2{
     padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    transition: background 0.3s;
+   color: white;
+   text-align: center;
+   font-size: medium;
+   font-weight: normal;
+   font-style: normal;
 }
 
-.account:hover {
-    background-color: #555;
+div.login1{
+    display: flex;
+    width: 50px;
+    border: 2px dashed red ;
 }
 
-.avatar1 {
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    background-position: top center;
+div.login1 img{
     border-radius: 50%;
-    margin-right: 12px;
-    background-image: url(../img/Vinicius-Jr-o-novo-Rei0325122900202406021208-14.webp);
-}
-
-.avatar2 {
-    width: 40px;
+    border: 1px solid white;
+    margin-left: 10px;
     height: 40px;
-    background-size: cover;
-    background-position: top center;
-    border-radius: 50%;
-    margin-right: 12px;
-    background-image: url(../img/Screenshot_20240925-231558-1024x587.png);
-}
-
-.avatar3 {
     width: 40px;
-    height: 40px;
-    background-size: cover;
-    background-position: top center;
-    border-radius: 50%;
-    margin-right: 12px;
-    background-image: url(../img/icons8-usuário-homem-com-círculo-48.png);
+    margin: 5px;
 }
 
-.account-info h2 {
-    font-size: 16px;
-    margin-bottom: 4px;
-    text-align: left;
-}
-
-.account-info p {
-    font-size: 12px;
-    color: #ccc;
-    text-align: left;
-}
-
-.info {
-    font-size: 10px;
-    margin-top: 20px;
-    color: #ccc;
-    text-align: left;
+div.login1 h1{
+    font-size: .9em;
 }
