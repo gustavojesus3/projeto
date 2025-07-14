@@ -28,27 +28,31 @@ header{
     align-items: center;
 }
 
-div.setas{
+div.setas-e-pesquisa{
     display: flex;
     align-items: center;
 }
 
-div.setas img{
+div.setas-e-pesquisa img{
     width: 30px;
     height: 36px;
     margin: 7px 7px 7px 30px;
 }
 
-.img1{
-    margin: 7px 7px 7px 7px;
+header div.img{
+    display: flex;
+    margin: 7px 20px 7px 7px;
+    padding: 5px;
+    gap: 13px;
 }
 
 input{
-    width: 250px;
-    height: 38px;
-    border-radius: 10px;
-    background-color: rgb(221, 219, 219);
+    width: 293px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgb(227, 225, 225);
     margin-left: 30px;
+    border: lightgray;
 }
 
 input::placeholder{
@@ -72,9 +76,22 @@ nav{
 }
 
 div.a{
-    background-color: yellow;
+    background-color: rgb(227, 225, 225);
     grid-column-start: 2;
     grid-column-end: 4;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+div.fotoA{
+    background-image: url(../img/pexels-pixabay-41162.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 69px;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 8px;
 }
 
 div.b{
